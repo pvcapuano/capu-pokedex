@@ -9,6 +9,7 @@ let baseUrlSvg = ref(
 let pokemons = reactive(ref());
 let searchPokemonField = ref("");
 let pokemonSelected = reactive(ref());
+let loading = ref(false);
 
 onMounted(() => {
   fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
@@ -24,7 +25,6 @@ const pokemonsFiltered = computed(() => {
         .includes(searchPokemonField.value.toLowerCase())
     );
   }
-  console.log(pokemons.value);
   return pokemons.value;
 });
 
@@ -32,8 +32,6 @@ const selectPokemon = async (pokemon) => {
   await fetch(pokemon.url)
     .then((res) => res.json())
     .then((res) => (pokemonSelected.value = res));
-
-  console.log(pokemonSelected.value.stats);
 };
 </script>
 

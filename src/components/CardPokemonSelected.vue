@@ -8,6 +8,7 @@ const pokemon = defineProps([
   "specialdefense",
   "speed",
   "image",
+  "loading",
 ]);
 </script>
 
