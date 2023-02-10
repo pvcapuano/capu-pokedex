@@ -6,7 +6,13 @@ const pokemon = defineProps(["name", "baseUrlSvg"]);
   <div class="col-4">
     <div class="card p-2 mb-3 cardListPokemon">
       <p class="text-center font-size:10vw">{{ pokemon.name }}</p>
-      <img :src="baseUrlSvg" class="card-img-top" alt="Pokemon" height="90" />
+      <img
+        :src="baseUrlSvg"
+        class="card-img-top mb-2"
+        alt="Pokemon"
+        height="90"
+      />
+      <a href="#" class="btn btn-primary btn-sm mb-1">Detalhes</a>
     </div>
   </div>
 </template>
