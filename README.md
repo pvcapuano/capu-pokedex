@@ -19,7 +19,7 @@ Pokedex com as informações dos Pokemons. Aplicação web desenvolvida em VueJs
 ## Projeto em produção:
 
 <p>
- <a href="capu-pokedex-p8zm5fubo-pvcapuano.vercel.app" target="_blank"> 
+ <a href="capu-pokedex.vercel.app" target="_blank"> 
   <img src="https://ml.globenewswire.com/Resource/Download/3a54c241-a668-4c94-9747-3d3da9da3bf2?size=2" alt="Vercel" width="100"/> 
  </a>
 </p>
@@ -33,4 +33,4 @@ Pokedex com as informações dos Pokemons. Aplicação web desenvolvida em VueJs
 
 ## Objetivo:
 
-Consumir a API do Pokemon. Realizar a busca do pokemon desejado e mostrar mais informações no card. 
+Consumir a API do Pokemon. Realizar a busca do pokemon desejado e mostrar mais informações no card. Foi utilizado nos commits o "Commit Pattern". 
