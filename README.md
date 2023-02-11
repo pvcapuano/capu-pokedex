@@ -19,7 +19,7 @@ Pokedex com as informações dos Pokemons. Aplicação web desenvolvida em VueJs
 ## Projeto em produção:
 
 <p>
- <a href="capu-pokedex.vercel.app" target="_blank"> 
+ <a href="https://capu-pokedex.vercel.app/" target="_blank"> 
   <img src="https://ml.globenewswire.com/Resource/Download/3a54c241-a668-4c94-9747-3d3da9da3bf2?size=2" alt="Vercel" width="100"/> 
  </a>
 </p>
