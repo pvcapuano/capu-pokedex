@@ -25,6 +25,7 @@ const pokemonsFiltered = computed(() => {
         .includes(searchPokemonField.value.toLowerCase())
     );
   }
+
   return pokemons.value;
 });
 
@@ -43,10 +44,11 @@ const selectPokemon = async (pokemon) => {
           <label hidden for="searchPokemonField" class="form-label"
             >Pesquisar</label
           >
+
           <input
             v-model="searchPokemonField"
             type="text"
-            class="form-control"
+            class="form-control mb-4"
             id="searchPokemonField"
             placeholder="Pesquisar..."
           />
